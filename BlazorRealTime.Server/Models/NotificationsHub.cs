@@ -8,5 +8,9 @@ namespace BlazorRealTime.Server.Models
 {
     public class NotificationsHub : Hub
     {
+        public override Task OnConnectedAsync()
+        {
+            return base.OnConnectedAsync(); 
+        }
     }
 }
