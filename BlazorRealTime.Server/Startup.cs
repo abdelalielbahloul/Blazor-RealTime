@@ -47,6 +47,8 @@ namespace BlazorRealTime.Server
 
             app.UseRouting();
 
+            app.UseCors("cors");
+
             app.UseAuthorization();
 
             app.UseEndpoints(endpoints =>
