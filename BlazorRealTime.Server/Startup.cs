@@ -2,6 +2,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using BlazorRealTime.Server.Models;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
@@ -32,6 +33,7 @@ namespace BlazorRealTime.Server
                     c.AllowAnyOrigin().AllowAnyMethod().AllowAnyHeader();
                 });
             });
+            services.AddSignalR();
             services.AddControllers();
         }
 
@@ -53,6 +55,7 @@ namespace BlazorRealTime.Server
 
             app.UseEndpoints(endpoints =>
             {
+                endpoints.MapHub<NotificationsHub>("/notifications");
                 endpoints.MapControllers();
             });
         }

@@ -86,7 +86,6 @@ C:\Users\Poste2\Desktop\ali\Abdelali projects\BlazorRealTime\BlazorRealTime.Serv
 C:\Users\Poste2\Desktop\ali\Abdelali projects\BlazorRealTime\BlazorRealTime.Server\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
 C:\Users\Poste2\Desktop\ali\Abdelali projects\BlazorRealTime\BlazorRealTime.Server\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
 C:\Users\Poste2\Desktop\ali\Abdelali projects\BlazorRealTime\BlazorRealTime.Server\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
-C:\Users\Poste2\Desktop\ali\Abdelali projects\BlazorRealTime\BlazorRealTime.Server\obj\Debug\netcoreapp3.1\BlazorRealTime.Server.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\Poste2\Desktop\ali\Abdelali projects\BlazorRealTime\BlazorRealTime.Server\obj\Debug\netcoreapp3.1\BlazorRealTime.Server.csproj.CopyComplete
 C:\Users\Poste2\Desktop\ali\Abdelali projects\BlazorRealTime\BlazorRealTime.Server\obj\Debug\netcoreapp3.1\BlazorRealTime.Server.dll
 C:\Users\Poste2\Desktop\ali\Abdelali projects\BlazorRealTime\BlazorRealTime.Server\obj\Debug\netcoreapp3.1\BlazorRealTime.Server.pdb
