@@ -22,7 +22,10 @@
 <div class="row my-2 mx-auto">
     <div class="col-md-2"></div>
     <div class="col-md-8">
-
+        @foreach (var item in ListMSG)
+        {
+            <div class="row">@item</div>
+        }
     </div>
     <div class="col-md-2"></div>
 </div>
@@ -33,6 +36,7 @@
 
     string connectionStatus = "Closed";
     bool isConnected = false;
+    List<string> ListMSG = new List<string>();
     private async Task Connection()
     {
         _connection = new HubConnectionBuilder()
