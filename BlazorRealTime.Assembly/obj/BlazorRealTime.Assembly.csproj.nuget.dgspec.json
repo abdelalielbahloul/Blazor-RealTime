@@ -59,6 +59,10 @@
               "suppressParent": "All",
               "target": "Package",
               "version": "[3.2.0-preview2.20160.5, )"
+            },
+            "Microsoft.AspNetCore.SignalR.Client": {
+              "target": "Package",
+              "version": "[3.1.2, )"
             }
           },
           "imports": [

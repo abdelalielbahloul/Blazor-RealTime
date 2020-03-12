@@ -1,0 +1,1 @@
+C:\Users\Poste2\Desktop\ali\Abdelali projects\BlazorRealTime\BlazorRealTime.Assembly\obj\Debug\netstandard2.1\BlazorRealTime.Assembly.csprojAssemblyReference.cache
